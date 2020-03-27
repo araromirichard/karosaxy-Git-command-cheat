@@ -1,0 +1,60 @@
+git config --global user.name "Your Name Comes Here"
+git config --global user.email you@yourdomain.example.com
+
+-----------------------------------------------------------------------------------
+
+
+1. create a new repository( this is from github).
+	
+B. if you want to create a directory from a command terminal, open a terminal and type git, hit enter.
+	next type mkdir folder_name.
+
+
+2. enter the directory by cd into it
+		cd folder_name
+
+echo a readme file by typig the following
+		echo "#DEMO" >> README.md
+
+		NOTE: to check that the file was created successfully, 
+				cat README.md (this shows what is inside the readme file)
+
+
+3. git init
+
+4. git add README.md
+
+5. git commit -m "first commit"
+
+6. git remote add origin http://github.com/your_username/repo_name.git
+
+7. Next is to push our code to GitHub.com
+
+8. git branch "branch name" : to create a newbranch
+
+9. git merge "branch name " : to merge the branch and master ( please checkout to master before merging the branch to master)
+
+10. git branch -d "branch name" to delete branch from local
+
+11. git push origin --delete "branch name" : to delete branch from remote
+
+
+----------------------------------------------------------------------------------
+
+
+			CLONING A REPO
+
+
+----------------------------------------------------------------------------------------
+
+BASIC COMMANDS
+
+
+git diff = shows any any changes that you’ve made but not yet added to the index.) You can also get a brief summary of the situation with git status:
+
+git commit -a = This will automatically notice any modified (but not new) files, add them to the index, and commit, all in one step.
+
+git log = At any point you can view the history of your changes using
+
+
+
